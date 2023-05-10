@@ -11,6 +11,38 @@ body {
     width: 800px;
     border: 1px black solid;
     margin: auto;
+    padding: 0;
+    box-shadow: 12px 2px 31px 4px rgba(0,0,0,0.75);
+
+}
+
+#post{
     padding: 1rem;
+}
+#cabecera {
+    width: 98%;
+    color: #fff;
+    background-color: #33A;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5rem;
+    
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border: 1px solid #333;
+    background-color: #fff;
+    color: orange;
+    border-radius: 8px;
+    transition: 500ms;
+}
+
+button:hover {
+    background-color: orange;
+    color: #fff;
 }
 
